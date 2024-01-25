@@ -37,7 +37,7 @@ def get_model_response(message):
     return response
 
 
-def gemini_respose_model(message):
+def gemini_response_model(message):
 
     load_dotenv(find_dotenv())
 
