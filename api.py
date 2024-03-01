@@ -10,7 +10,7 @@ def hello_world():
         "message": "Hello!, Welcome to Healix Model API"
     }
 
-@app.route("/response")
+@app.route("/gemini", methods=["POST"])
 def response():
     data = request.json
     if data and "message" in data:
